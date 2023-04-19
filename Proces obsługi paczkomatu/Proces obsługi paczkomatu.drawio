@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:23:50.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="qBtfJeK_L4MWFKShUFU9" version="21.1.9" type="device">
+  <diagram name="Strona-1" id="15Gvd7eby98FJaDq5SOr">
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-3" value="Klient" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="1180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-3" source="QyjvioeR8_0Ip3BjGItg-5" target="QyjvioeR8_0Ip3BjGItg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-5" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-3">
+          <mxGeometry x="27" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-3" source="QyjvioeR8_0Ip3BjGItg-7" target="QyjvioeR8_0Ip3BjGItg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-7" value="Klient wybiera paczkomat" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-3">
+          <mxGeometry x="100" y="35" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-3" source="QyjvioeR8_0Ip3BjGItg-9" target="QyjvioeR8_0Ip3BjGItg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-9" value="Wprowadzenie danych odbiorcy" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-3">
+          <mxGeometry x="250" y="35" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-11" value="Włożenie przesyłki do skrytki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-3">
+          <mxGeometry x="410" y="38" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-20" value="Informacja o odebraniu paczki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-3">
+          <mxGeometry x="910" y="33" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-4" value="Paczkomat" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="1180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-4" source="QyjvioeR8_0Ip3BjGItg-6" target="QyjvioeR8_0Ip3BjGItg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-6" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="30" y="45" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-4" source="QyjvioeR8_0Ip3BjGItg-8" target="QyjvioeR8_0Ip3BjGItg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-8" value="Paczkomat weryfikuje poprawność danych odbiorcy" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="130" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-4" source="QyjvioeR8_0Ip3BjGItg-10" target="QyjvioeR8_0Ip3BjGItg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-10" value="Wyświetla potwierdzenie i prośba o włożenie przesyłki do skrytki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="280" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-18" value="Włożenie paczki do odpowiedniego paczkomatu" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="730" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-4" source="QyjvioeR8_0Ip3BjGItg-17" target="QyjvioeR8_0Ip3BjGItg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-17" value="Oczekiwanie na odebranie skrzynki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="590" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-4" source="QyjvioeR8_0Ip3BjGItg-12" target="QyjvioeR8_0Ip3BjGItg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-12" value="Zamknięcie skrytki powiadomienie do odbiorcy" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="430" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-41" value="Wysłanie potwierdzenia o odebraniu paczki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-4">
+          <mxGeometry x="910" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-13" value="Odbiorca" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="359" width="1180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-13" source="QyjvioeR8_0Ip3BjGItg-14" target="QyjvioeR8_0Ip3BjGItg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-14" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-13">
+          <mxGeometry x="280" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-13" source="QyjvioeR8_0Ip3BjGItg-16" target="QyjvioeR8_0Ip3BjGItg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-16" value="Otrzymanie kodu dostępu do skrytki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-13">
+          <mxGeometry x="720" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-19" value="Odebranie paczki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-13">
+          <mxGeometry x="910" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-21" value="Informacja o odebraniu paczki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-13">
+          <mxGeometry x="1060" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QyjvioeR8_0Ip3BjGItg-13" source="QyjvioeR8_0Ip3BjGItg-15" target="QyjvioeR8_0Ip3BjGItg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-15" value="Otrzymanie powiadomienia o wysyłce paczki" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="QyjvioeR8_0Ip3BjGItg-13">
+          <mxGeometry x="430" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-9" target="QyjvioeR8_0Ip3BjGItg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-10" target="QyjvioeR8_0Ip3BjGItg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-12" target="QyjvioeR8_0Ip3BjGItg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-18" target="QyjvioeR8_0Ip3BjGItg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-19" target="QyjvioeR8_0Ip3BjGItg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-41" target="QyjvioeR8_0Ip3BjGItg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QyjvioeR8_0Ip3BjGItg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="QyjvioeR8_0Ip3BjGItg-41" target="QyjvioeR8_0Ip3BjGItg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
