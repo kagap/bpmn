@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T18:45:49.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oJml0Vv5B9B3wffim2GB" version="21.5.0" type="device">
+  <diagram name="Strona-1" id="Dfk-eL5AE88bfB4iJ0H_">
+    <mxGraphModel dx="2514" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="juec9zuNveICwR_vTM9x-1" value="Klient" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="20" width="1420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="juec9zuNveICwR_vTM9x-1" source="juec9zuNveICwR_vTM9x-3" target="juec9zuNveICwR_vTM9x-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-3" value="Wybór oferty kredytu" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="juec9zuNveICwR_vTM9x-1">
+          <mxGeometry x="60" y="52" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="juec9zuNveICwR_vTM9x-1" source="juec9zuNveICwR_vTM9x-7" target="juec9zuNveICwR_vTM9x-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-7" value="Wypełnianie wniosku&lt;br&gt;&lt;br&gt; Klient wypełnia wniosek o kredyt. Wniosek składa się z różnych czynności, takich jak podanie danych osobowych, wysokości dochodu, liczby osób zamieszkujących gospodarstwo, rodzaju zatrudnienia, sumy comiesięcznych opłat" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;arcSize=10;taskMarker=abstract;outline=none;symbol=general;bpmnShapeType=subprocess;isLoopSub=0;verticalAlign=top;align=left;spacingLeft=5;html=1;whiteSpace=wrap;" vertex="1" parent="juec9zuNveICwR_vTM9x-1">
+          <mxGeometry x="151" y="15" width="380" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-12" value="Przekazanie wniosku do banku" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="juec9zuNveICwR_vTM9x-1">
+          <mxGeometry x="630" y="37" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="juec9zuNveICwR_vTM9x-1" source="juec9zuNveICwR_vTM9x-23" target="juec9zuNveICwR_vTM9x-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-23" value="Przekazanie decyzji banku" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;" vertex="1" parent="juec9zuNveICwR_vTM9x-1">
+          <mxGeometry x="830" y="53" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="juec9zuNveICwR_vTM9x-1" source="juec9zuNveICwR_vTM9x-24" target="juec9zuNveICwR_vTM9x-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-31" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="juec9zuNveICwR_vTM9x-30">
+          <mxGeometry x="-0.206" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-24" value="Wybór klienta czy zgadza się na warunki" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="juec9zuNveICwR_vTM9x-1">
+          <mxGeometry x="1027" y="53" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-29" value="Koniec procesu" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="juec9zuNveICwR_vTM9x-1">
+          <mxGeometry x="1130" y="4" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-2" value="Bank" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="170" width="1421" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="juec9zuNveICwR_vTM9x-2" source="juec9zuNveICwR_vTM9x-13" target="juec9zuNveICwR_vTM9x-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-13" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="juec9zuNveICwR_vTM9x-2">
+          <mxGeometry x="525" y="55" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-17" value="Ocena zdolności kredytowej" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="juec9zuNveICwR_vTM9x-2">
+          <mxGeometry x="631" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="juec9zuNveICwR_vTM9x-2" source="juec9zuNveICwR_vTM9x-32" target="juec9zuNveICwR_vTM9x-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-32" value="Podpisanie umowy" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="juec9zuNveICwR_vTM9x-2">
+          <mxGeometry x="1136" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-35" value="Koniec procesu" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="juec9zuNveICwR_vTM9x-2">
+          <mxGeometry x="1308" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;endArrow=block;endFill=0;" edge="1" parent="1" source="juec9zuNveICwR_vTM9x-12" target="juec9zuNveICwR_vTM9x-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-21" value="Ocena" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="juec9zuNveICwR_vTM9x-17" target="juec9zuNveICwR_vTM9x-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;endArrow=block;endFill=0;" edge="1" parent="1" source="juec9zuNveICwR_vTM9x-24" target="juec9zuNveICwR_vTM9x-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juec9zuNveICwR_vTM9x-34" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="juec9zuNveICwR_vTM9x-33">
+          <mxGeometry x="-0.0418" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
